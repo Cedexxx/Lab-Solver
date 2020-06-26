@@ -75,7 +75,6 @@ dir = []
 
 def algo(value):
     global direction
-    print(map[posY][posX - 1])
     if direction == "right" and map[posY + 1][posX] == 0 and map[posY + 1][posX - 1] == 1:
         down()
         direction = "down"
